@@ -1,0 +1,175 @@
+@charset "utf-8";
+@import url("webfonts/pacifico/stylesheet.css");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@font-face{
+	font-family: "mspe"; 
+	src:url("Melon Honey.otf");
+} 
+
+/* CSS Document */
+
+header {
+   height: auto;
+   background-color: #ED756E;
+   color:#FBF7FA;
+	text-align: center;
+} 
+nav{
+    height: auto;
+    background-color: deeppink;
+    color: #FFC2AD;
+    line-height: normal;
+    list-style-type: none;
+    width: auto;
+}
+nav ul  {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+main{
+	height: auto;
+		background-color:burlywood;
+}
+footer{
+    background-color: #ED756E;
+    text-align: center;
+}
+a{
+	margin:0;
+	padding:0;
+}
+Header,nav, main, footer {
+	margin:0 auto;
+	padding:20px;
+	witdh:80%;
+}
+main section{
+    width: 90%;
+    background-color:aliceblue;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    color: #631213;
+    height: auto;
+}
+ul li {
+    background-color: #FB8C8E;
+    width: auto;
+    height: auto;
+    color: #000000;
+}
+
+
+th, td
+		{
+			padding: 20px;
+			text-align: center; 
+		}
+#style_tabla_2 {
+    width: 80%;
+}
+#style_tabla_0 {
+    margin: 30px;
+    padding: 0;
+    width: 80%;
+}
+main section p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  .encabezado_impar{
+			color:#650E6E; 
+		}#style_tabla_0 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul {
+    color: cadetblue;
+    width: 90%;
+}
+nav ul li {
+    list-style-type: none;
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+    background-color:cadetblue;
+    padding: 20px;
+    text-align: center;
+}
+.size_video {
+    width: 60%;
+    padding: 20px;
+    height: auto;
+}
+
+input[type=text], textarea{
+	witdh:30%;
+	padding:5px;
+	margin:5px 5px;
+	border: 2px solid #3BA9F3;
+	border-radius: 10px; 
+	color:#668498;
+}
+input[type=email]{
+	witdh:30%;
+	padding:5px;
+	margin:5px 5px;
+	border: 1px solid #3BA9F3;
+	border-radius: 2px; 
+	color:#668498;
+	background-color: #AEB0B1;
+}
+input[type=submit]:hover {
+	witdh:20%;
+	height:30px;
+	
+}
+#form3 #submit3:hover {
+	background-color: #465771;
+	color:#E4EBF2;
+}
+#comentario{
+	risize:none;
+	padding:10px;
+}
+main section h2 {
+    font-family: cabin-sketch;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+p{
+	
+	font-family:'Montserrat';
+}
+
+.fuentes_google_local {
+    font-family: pacifico;
+    font-size: 24px;
+}
+
+.fuentes_google_enlazada{
+	font-family: 'Rock Salt', cursive;
+}
+.parrafo_1{
+	/*family: 'Montserrat', sans-serif;*/
+	font-family: "Zilla Slab", serif;
+	font-size: 16px;
+}
+.titulo_mspe{
+	font-family: "mspe";
+}
+.imagen_section{
+    width: 300px;
+    height: 300px;
+}
